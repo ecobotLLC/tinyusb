@@ -128,6 +128,7 @@ bool tusb_init(void);
 // Check if stack is initialized
 bool tusb_inited(void);
 
+bool get_osal_queue_receive(void);
 // TODO
 // bool tusb_teardown(void);
 

@@ -1,0 +1,1 @@
+set(PICO_BOARD ecobot_ecobouzu_rp2040)

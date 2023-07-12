@@ -33,7 +33,7 @@
 //--------------------------------------------------------------------+
 #include "device/usbd.h"
 #include "device/usbd_pvt.h"
-
+#include "usb_descriptors.h"
 #include "hid_device.h"
 
 //--------------------------------------------------------------------+

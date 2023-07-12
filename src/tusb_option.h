@@ -27,6 +27,11 @@
 #ifndef _TUSB_OPTION_H_
 #define _TUSB_OPTION_H_
 
+#define CFG_TUD_HID               2 // 1 for boot keyboard, 1 for boot mouse
+
+
+
+
 #define TUSB_VERSION_MAJOR     0
 #define TUSB_VERSION_MINOR     12
 #define TUSB_VERSION_REVISION  0

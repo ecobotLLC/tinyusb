@@ -16,4 +16,5 @@ clean:
 
 flash: flash-pyocd
 flash-uf2:
-	@$(CP) $(BUILD)/$(PROJECT).uf2 /media/$(USER)/RPI-RP2
+#	@$(CP) $(BUILD)/$(PROJECT).uf2 /media/$(USER)/RPI-RP2
+	@$(CP) $(BUILD)/$(PROJECT).uf2 /media/$(USER)/ECO-BOUZU

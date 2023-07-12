@@ -32,7 +32,7 @@
 #include "hardware/structs/ioqspi.h"
 #include "hardware/structs/sio.h"
 
-#include "bsp/board.h"
+#include "../board.h"
 #include "board.h"
 
 #ifdef BUTTON_BOOTSEL

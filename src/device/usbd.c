@@ -488,6 +488,11 @@ bool tud_task_event_ready(void)
     }
     @endcode
  */
+bool get_osal_queue_receive()
+{
+  dcd_event_t event;
+  return osal_queue_receive(_usbd_q, &event);
+}
 void tud_task (void)
 {
   // Skip if stack is not initialized

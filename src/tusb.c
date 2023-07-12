@@ -38,14 +38,16 @@
 bool tusb_init(void)
 {
 #if TUSB_OPT_DEVICE_ENABLED
-  TU_ASSERT ( tud_init(TUD_OPT_RHPORT) ); // init device stack
+bool res = false;
+  TU_ASSERT (res = tud_init(TUD_OPT_RHPORT) ); // init device stack
+  return res;
 #endif
 
 #if TUSB_OPT_HOST_ENABLED
   TU_ASSERT( tuh_init(TUH_OPT_RHPORT) ); // init host stack
 #endif
 
-  return true;
+  return false;
 }
 
 bool tusb_inited(void)
